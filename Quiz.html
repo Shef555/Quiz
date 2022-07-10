@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="materialize.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+    <style>
+    .inner-div {
+  width: 60vw;
+  background-color: rgb(188, 200, 223);
+  padding: 3rem 7rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -o.7rem rgba(0, 0, 0, 0.4);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+    span {
+  color: #000000;
+  font-weight: 500;
+} 
+  </style>
+  </head>
+
+  <body>
+  <!--navbar-->
+  <div class="bs-example">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000">
+    <a style="color: #ffffff; text-decoration: none" href="#">
+    <font face="Comic sans MS" size=" 5">Quiz4U</font><br/></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+    <div class="navbar-nav">
+    <a style="padding-left: 30px" href="index.html" class="nav-item nav-link active">Home</a>
+    <a href="Quiz.html" class="nav-item nav-link">Quiz</a>
+    </div>
+
+    <div class="navbar-nav">
+    <a href="about us.html" class="nav-item nav-link">About Us</a>
+    <a href="support us.html" class="nav-item nav-link">Support Us</a>
+    </div>
+    </div>
+    </nav>
+  <!--/navbar-->
+    <br /><br /><br />
+    <div class="container">
+    <h1 class="display-2 m-5" style="background-color: pink;" align="center">Tech Quiz</h1>
+    <p class="display m-5" style="font-size: 25px" align="justify">
+    <strong>Answer 5 tech-related questions, submit answers and challenge friends to beat your score.</strong>
+    <br />Get all questions right and prove that you belong to the
+          exclusive Tech Elite circle.
+    </p>
+
+    <div class="row">
+    <div class="card-panel hide" id="result">
+    <h5 class="center">You have scored <span class="teal-text marks">0%</span> of your test.</h5>
+    </div>
+
+    <div class="card-panel">
+    <form class="qns-form">
+    <div class="container">
+    <div class="box">
+    <div class="inner-div">
+
+    <div class="question">
+      <p>What is HTML in full?</p>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn1" value="A" />
+      <span>Hyper Text Markup Language</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn1" value="B" />
+      <span>HTML Markup Language</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn1" value="C" />
+      <span>Hide Text Mean Language</span>
+      </label>
+      </div>
+      </div></div><br>
+
+      <div class="question">
+      <div class="inner-div">
+      <p>What is CSS in full?</p>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn2" value="A" />
+      <span>content styling sheet</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn2" value="B" />
+      <span>Cascading Style Sheet</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn2" value="C" />
+      <span>Css sheet style</span>
+      </label>
+      </div>
+      </div></div><br>
+
+      <div class="question">
+      <div class="inner-div">
+      <p>Is PHP a front-end language?</p>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn3" value="A" />
+      <span>Yes ofcourse</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn3" value="B" />
+      <span>Nope!, It's a backend Language.</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn3" value="C" />
+      <span>Both A and B</span>
+      </label>
+      </div>
+      </div></div><br>
+
+      <div class="question">
+      <div class="inner-div">
+      <p>Firefox and Opera are types of what?</p>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn4" value="A" />
+      <span>Browser</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn4" value="B" />
+      <span>Editing softwares</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn4" value="C" />
+      <span>Pokemon</span>
+      </label>
+      </div>
+      </div></div><br>
+
+      <div class="question">
+      <div class="inner-div">
+      <p>Who created the first modern computer?</p>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn5" value="A" />
+      <span>Robert E Kahn</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn5" value="B" />
+      <span>Charles Babbage</span>
+      </label>
+      </div>
+      <div class="answer">
+      <label>
+      <input type="radio" name="qn5" value="C" />
+      <span>Bharles Cabbage</span>
+      </label>
+      </div>
+      </div></div><br>
+
+      <button class="btn right">Submit answer</button>
+      </form>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+
+      <div class="col l3 s12"></div>
+      </div>
+    </div>
+    <script src="Quiz script.js"></script>
+</body>
+</html>
